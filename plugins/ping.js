@@ -29,7 +29,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭι̇ι̇ 𝐌Ɗ 𝐏๏፝֟ƞ̽g  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterName: '𝐊ąìʂҽղ-𝐌𝐃 𝐏๏፝֟ƞ̽g  ⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
@@ -46,7 +46,7 @@ cmd({
     pattern: "ping2",
     desc: "Check bot's response time.",
     category: "main",
-    react: "🍂",
+    react: "🌝",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -78,7 +78,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const start = new Date().getTime();
 
         const reactionEmojis = ['🔥', '🔮', '🌩️', '👻', '🍁', '🐍', '🎋', '🎐', '🪸', '📍', '👑', '🌀', '🪄'];
-        const textEmojis = ['🪀', '🪂', '⚡️', '🚀', '🏎️', '🚁', '🌀', '📟', '🎲', '✨'];
+        const textEmojis = ['🤍', '🪂', '⚡️', '🚀', '🏎️', '🚁', '🌀', '📟', '🎲', '✨'];
 
         const reactionEmoji = reactionEmojis[Math.floor(Math.random() * reactionEmojis.length)];
         let textEmoji = textEmojis[Math.floor(Math.random() * textEmojis.length)];
@@ -106,7 +106,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: "𝐀ɭι̇ι̇ 𝐌Ɗ 𝐏๏፝֟ƞ̽g  ⃪🤖͎᪳᪳𝆺𝅥",
+                    newsletterName: "𝐊ąìʂҽղ-𝐌𝐃 𝐏๏፝֟ƞ̽g  ⃪🤖͎᪳᪳𝆺𝅥",
                     serverMessageId: 143
                 }
             }
@@ -124,16 +124,16 @@ cmd({
     pattern: "ping2",
     desc: "Check bot's response time.",
     category: "main",
-    react: "🧠",
+    react: "🐦",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         const startTime = Date.now()
-        const message = await conn.sendMessage(from, { text: '\`ALI PINGING 🚀\`' })
+        const message = await conn.sendMessage(from, { text: '\`ALI PINGING 🐬\`' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*ALI PONGED ! : ${ping}ms ⚡*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*ALI PONGED ! : ${ping}ms 🐅 𝐊ąìʂҽղ-𝐌𝐃*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
