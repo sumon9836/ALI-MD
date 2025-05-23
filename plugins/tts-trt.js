@@ -6,8 +6,8 @@ const googleTTS = require('google-tts-api')
 cmd({
     pattern: "trt",
     alias: ["translate"],
-    desc: "🌍 Translate text between languages",
-    react: "⚡",
+    desc: "🫧 Translate text between languages",
+    react: "🩷",
     category: "other",
     filename: __filename
 },
@@ -24,7 +24,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const response = await axios.get(url);
         const translation = response.data.responseData.translatedText;
 
-        const translationMessage = `> *ALI-MD-TRANSLATION*
+        const translationMessage = `> *KAISEN-MD-TRANSLATION*
 
 > 🔤 *Original*: ${textToTranslate}
 
@@ -44,7 +44,7 @@ cmd({
     pattern: "tts",
     desc: "download songs",
     category: "download",
-    react: "👧",
+    react: "🤧",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
