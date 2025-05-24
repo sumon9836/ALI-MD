@@ -21,7 +21,7 @@ cmd({
     const _0xb13dc7 = ["Red", 'Green', "Blue", "Yellow", 'Orange', 'Purple', 'Pink', 'Brown', 'Black', "White", "Gray", "Cyan", "Magenta", 'Violet', "Indigo", "Teal", 'Lavender', "Turquoise"];
     const _0x256030 = '#' + Math.floor(Math.random() * 0xffffff).toString(0x10);
     const _0x5d0cef = _0xb13dc7[Math.floor(Math.random() * _0xb13dc7.length)];
-    _0x82e9b2("🎨 *\`ALI MD RANDOM COLOUR:\`* \n\nColour Name: " + _0x5d0cef + "\nCode: " + _0x256030);
+    _0x82e9b2("🎨 *\`KAISEN MD RANDOM COLOUR:\`* \n\nColour Name: " + _0x5d0cef + "\nCode: " + _0x256030);
   } catch (_0x563257) {
     console.error("Error in .randomcolor command:", _0x563257);
     _0x82e9b2("❌ An error occurred while generating the random color.");
@@ -45,7 +45,7 @@ cmd({
     const _0x63c851 = _0x12ab54.split('').map(_0x41ab34 => {
       return ("00000000" + _0x41ab34.charCodeAt(0x0).toString(0x2)).slice(-0x8);
     }).join(" ");
-    _0x20adfd(" *\`Ali Binary Representation:\`* \n\n" + _0x63c851);
+    _0x20adfd(" *\`KAISEN Binary Representation:\`* \n\n" + _0x63c851);
   } catch (_0x307dbc) {
     console.error("Error in .binary command:", _0x307dbc);
     _0x20adfd("❌ An error occurred while converting to binary.");
@@ -99,7 +99,7 @@ cmd({
 });
 cmd({
   'pattern': 'decode',
-  'react': "🤹‍♂️",
+  'react': "🥷",
   'desc': "Decode Base64 encoded text.",
   'category': "utility",
   'filename': __filename
@@ -187,7 +187,7 @@ cmd({
 }) => {
   try {
     const _0x264649 = Math.random() < 0.5 ? "Heads" : "Tails";
-    _0x3ce285("🪙 Coin Flip Result: *" + _0x264649 + '*');
+    _0x3ce285("☣️ Coin Flip Result: *" + _0x264649 + '*');
   } catch (_0x233808) {
     console.error("Error in .coinflip command:", _0x233808);
     _0x3ce285("❌ An error occurred while flipping the coin.");
@@ -227,7 +227,7 @@ cmd({
       return _0x92f526("❌ Please provide two choices to pick from. Example: `.pick Ice Cream, Pizza`");
     }
     const _0xb7816c = _0x5915c6.join(" ").split(',')[Math.floor(Math.random() * 0x2)].trim();
-    _0x92f526("🎉 Bot picks: *" + _0xb7816c + '*');
+    _0x92f526("🍻 Bot picks: *" + _0xb7816c + '*');
   } catch (_0x5a875f) {
     console.error("Error in .pick command:", _0x5a875f);
     _0x92f526("❌ An error occurred while processing your request.");
@@ -250,7 +250,7 @@ cmd({
       'hour12': true,
       'timeZone': "Asia/Pakistan"
     });
-    _0x2cf87c("🕒 Current Local Time in Zimbabwe6: " + _0x624003);
+    _0x2cf87c("🌀 Current Local Time in Zimbabwe6: " + _0x624003);
   } catch (_0x39a156) {
     console.error("Error in .timenow command:", _0x39a156);
     _0x2cf87c("❌ An error occurred. Please try again later.");
@@ -272,7 +272,7 @@ cmd({
       'month': 'long',
       'day': "numeric"
     });
-    _0x2f4fd4("📅 Current Date: " + _0x5987f3);
+    _0x2f4fd4("🎀 Current Date: " + _0x5987f3);
   } catch (_0x2ed4a8) {
     console.error("Error in .date command:", _0x2ed4a8);
     _0x2f4fd4("❌ An error occurred. Please try again later.");
@@ -296,7 +296,7 @@ cmd({
     if (!_0x11404d) {
       return _0x2c6281("Please mention a user to send the ASCII art to.");
     }
-    const _0x359ce7 = "😂 @" + _0x11404d.split('@')[0x0] + "!\n😂 that for you:\n\n" + "\n          _______\n       .-'       '-.\n      /           /|\n     /           / |\n    /___________/  |\n    |   _______ |  |\n    |  |  \\ \\  ||  |\n    |  |   \\ \\ ||  |\n    |  |____\\ \\||  |\n    |  '._  _.'||  |\n    |    .' '.  ||  |\n    |   '.___.' ||  |\n    |___________||  |\n    '------------'  |\n     \\_____________\\|\n";
+    const _0x359ce7 = "🤣 @" + _0x11404d.split('@')[0x0] + "!\n😅 that for you:\n\n" + "\n          _______\n       .-'       '-.\n      /           /|\n     /           / |\n    /___________/  |\n    |   _______ |  |\n    |  |  \\ \\  ||  |\n    |  |   \\ \\ ||  |\n    |  |____\\ \\||  |\n    |  '._  _.'||  |\n    |    .' '.  ||  |\n    |   '.___.' ||  |\n    |___________||  |\n    '------------'  |\n     \\_____________\\|\n";
     await _0x36fc22.sendMessage(_0x4a95e9, {
       'text': _0x359ce7,
       'mentions': [_0x11404d]
@@ -355,7 +355,7 @@ cmd({
       return _0x467ce5("❎ Only the bot owner can use this command.");
     }
     if (!_0x446409[0x0]) {
-      return _0x467ce5("✳️ Use this command like:\n *Example:* .countx 10");
+      return _0x467ce5("🪴 Use this command like:\n *Example:* .countx 10");
     }
     const _0x597580 = parseInt(_0x446409[0x0].trim());
     if (isNaN(_0x597580) || _0x597580 <= 0x0 || _0x597580 > 0x32) {
@@ -392,7 +392,7 @@ cmd({
       return _0x19288f("❎ Only the bot owner can use this command.");
     }
     if (!_0x21c31e[0x0]) {
-      return _0x19288f("✳️ Use this command like:\n *Example:* .count 10");
+      return _0x19288f("🪴 Use this command like:\n *Example:* .count 10");
     }
     const _0xb11b58 = parseInt(_0x21c31e[0x0].trim());
     if (isNaN(_0xb11b58) || _0xb11b58 <= 0x0 || _0xb11b58 > 0x32) {
@@ -425,7 +425,7 @@ cmd({
 }) => {
   try {
     if (!_0x62506a[0x0]) {
-      return _0x552cd6("✳️ Use this command like:\n *Example:* .calculate 5+3*2");
+      return _0x552cd6("🪴 Use this command like:\n *Example:* .calculate 5+3*2");
     }
     const _0x434def = _0x62506a.join(" ").trim();
     if (!/^[0-9+\-*/().\s]+$/.test(_0x434def)) {
@@ -463,7 +463,7 @@ cmd({
     const targetNumber = Math.floor(Math.random() * 100) + 1;
     activeGames[from] = { targetNumber, attempts: {} };
 
-    await reply("🎉 *Number Game Started!* 🎉\n\nI have chosen a number between 1 and 100.\nGuess the number by typing it in the chat!");
+    await reply("🍻 *Number Game Started!* 🍻\n\nI have chosen a number between 1 and 100.\nGuess the number by typing it in the chat!");
   } catch (e) {
     console.error(e);
     reply("❌ An error occurred while starting the game.");
