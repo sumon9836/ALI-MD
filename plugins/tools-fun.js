@@ -33,7 +33,7 @@ cmd({
     pattern: "flirt",
     alias: ["masom", "line"],
     desc: "Get a random flirt or pickup line.",
-    react: "💘",
+    react: "💓",
     category: "fun",
     filename: __filename,
 }, 
