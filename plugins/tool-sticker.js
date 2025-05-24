@@ -43,7 +43,7 @@ cmd(
         pack: config.STICKER_NAME || 'My Pack',
         author: '', // Leave blank or customize
         type: StickerTypes.FULL, // FULL for regular stickers
-        categories: ['🤩', '🎉'], // Emoji categories
+        categories: ['😳', '🍻'], // Emoji categories
         id: '12345', // Optional ID
         quality: 75, // Set quality for optimization
         background: 'transparent', // Transparent background
